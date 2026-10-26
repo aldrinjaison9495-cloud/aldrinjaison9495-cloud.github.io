@@ -1094,3 +1094,20 @@ body.light-mode .instagram-icon {
   color: #ffffff;
   background: #3a414a;
 }
+.back-to-top {
+    display: inline-block;
+    color: #63f5f5;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
